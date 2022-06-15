@@ -14,8 +14,6 @@ Home task solution for build platform to shorten url's. Short url is a way to co
   - mongoose
 - MongoDB
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## Getting Started
