@@ -1,0 +1,26 @@
+{
+  "name": "matan-sunbit-hometask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Matan Shaviro",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.3.8",
+    "mongoose-type-url": "^2.1.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
